@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".UI.QuizActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="@dimen/timer_dims"
+            android:layout_height="@dimen/timer_dims"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/pad_mar_20"
+            android:background="@drawable/ic_timer">
+
+            <TextView
+                android:id="@+id/timer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="38dp"
+                android:gravity="center"
+                android:text="@string/_00_00"
+                android:contentDescription="@null"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/marg_pad_10dp"
+            android:contentDescription="@null"
+            android:text="@string/question_dots"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marg_pad_10dp"
+            app:layout_columnWeight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/marg_pad_10dp">
+
+                <TextView
+                    android:id="@+id/selection_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/selectionHieght"
+                    android:gravity="center"
+                    android:contentDescription="@null"
+                    android:text="@string/answers_dots"
+                    android:textSize="@dimen/selection_txt_size" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dividerHieght"
+                    android:background="@color/dividerColor" />
+
+                <TextView
+                    android:id="@+id/selection_2"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/selectionHieght"
+                    android:gravity="center"
+                    android:contentDescription="@null"
+                    android:text="@string/answers_dots"
+                    android:textSize="@dimen/selection_txt_size" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dividerHieght"
+                    android:background="@color/dividerColor" />
+
+                <TextView
+                    android:id="@+id/selection_3"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/selectionHieght"
+                    android:gravity="center"
+                    android:contentDescription="@null"
+                    android:text="@string/answers_dots"
+                    android:textSize="@dimen/selection_txt_size" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dividerHieght"
+                    android:background="@color/dividerColor" />
+
+                <TextView
+                    android:id="@+id/selection_4"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/selectionHieght"
+                    android:gravity="center"
+                    android:contentDescription="@null"
+                    android:text="@string/answers_dots"
+                    android:textSize="@dimen/selection_txt_size" />
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

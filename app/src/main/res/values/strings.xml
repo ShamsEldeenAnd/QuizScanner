@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">QuizzScanner</string>
+    <string name="question_dots">.................... ?</string>
+    <string name="answers_dots">.........................</string>
+    <string name="wrong_answer_placeholder">wrong Answer</string>
+    <string name="passed_result">You have passed quiz and your result is : </string>
+    <string name="failed_result">You have Failed in quiz and your result is : </string>
+    <string name="fetch_question">Fetching questions ....</string>
+    <string name="_00_00">00:00</string>
+    <string name="logout">LogOut</string>
+    <string name="total_questions">/5</string>
+    <string name="percentage">%</string>
+    <string name="scan">Scan</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="your_result">Your Result</string>
+    <string name="logo_image">Logo Image</string>
+    <string name="scan_qr_button">Scan QR Button</string>
+    <string name="tool_bar">Tool Bar</string>
+    <string name="this_is_the_result">This is the Result</string>
+</resources>

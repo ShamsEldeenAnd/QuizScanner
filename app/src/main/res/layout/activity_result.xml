@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".UI.ResultActivity">
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/pad_mar_20"
+        android:gravity="center"
+        android:contentDescription="@string/this_is_the_result"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Display4"
+        android:textColor="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/finalResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/pad_mar_20"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="22sp"
+        android:contentDescription="@null"
+        android:textColor="@color/colorAccent" />
+</LinearLayout>
